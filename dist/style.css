@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte2);
+}
+:root {
+    --fonte1: 'Mochiy Pop One', sans-serif;
+    --fonte2: 'Raleway', sans-serif;
+}
+body{
+    overflow-x: hidden!important;
+}
+h1{
+    font-family: var(--fonte1);
+    color: black;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+div{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dfd7919c;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 600px;
+    flex-wrap: nowrap;
+}
+p {
+    text-align:center;
+}
